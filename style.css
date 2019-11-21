@@ -1,0 +1,48 @@
+.search {
+    margin: 20px;
+    overflow: auto;
+    position: relative;
+}
+
+.search-icon {
+    background-color: #4EA4E8 ;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    display: flex;
+    overflow: auto;
+    margin-left: 10px;
+}
+
+.searchInput {
+    width: 80%
+}
+
+.form-control {
+    display: inline-block;
+}
+
+.searchHistory {
+    width: 95%;
+    margin: auto;
+}
+
+.historyBlock {
+    display: block;
+    border-bottom: 1px solid #C1C1C1 ;
+    width: 95%;
+    height: 40px;
+    margin: auto;
+    padding: 2%;
+    background-color: white;
+    color: gray;
+}
+
+.col-sm-3 {
+    height: 100vh;
+}
+
+.currentWeather {
+    border: 1px solid #C1C1C1 ;
+    margin-top: 5%;
+}
