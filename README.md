@@ -2,25 +2,25 @@
 
 
 ## Description
+I was able to build a weather dashboard application with search functionality to find current weather conditions for multiple cities. You are able to key a city in the search bar and it will display and append other searches.
 
 
 
 
+![screenshot of the app](weatherApp/images/searches.png)
 
-![screenshot of the app]()
-
-![screenshot of the code]()
+![screenshot of the code](weatherApp/images/codeitup.png)
 
 
 ## Business Context
-
+A weather dashboard application helps with travelers or anyone planning a trip. It is able to assit by viewing the weather before leaving for your destination.  
 
 
 
 
 ## Credits
-One website that I happen to use quite a bit to execute this portfolio is https://www.w3schools.com/html/. Your more than welcome to use them. Also https://www.freecodecamp.org/ has alot of material that helped out. https://getbootstrap.com/ Really helped me alot as well.
-I also would like to give credit to all the study groups that we had this week. They were able to show me more than one pair of eyes is able to break down a problem.
+One website that I happen to use quite a bit to execute this app is https://www.w3schools.com/html/. Your more than welcome to use them. Also https://www.freecodecamp.org/ has alot of material that helped out. https://getbootstrap.com/ Really helped me alot as well. I also used the https://openweathermap.org/api.
+I also would like to give credit to all the study groups that we had this week. They were able to show me more than one pair of eyes is able to break down a problem and find a solution.
 Special credit goes to the team of instructors. Without their help; this portfolio wouldn't have been possible.
 
 ## Submission on BCS
