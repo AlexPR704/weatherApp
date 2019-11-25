@@ -7,9 +7,9 @@ I was able to build a weather dashboard application with search functionality to
 
 
 
-![screenshot of the app](weatherApp/images/searches.png)
+![screenshot of the app](images/searches.png)
 
-![screenshot of the code](weatherApp/images/codeitup.png)
+![screenshot of the code](images/codeitup.png)
 
 
 ## Business Context
@@ -25,8 +25,8 @@ Special credit goes to the team of instructors. Without their help; this portfol
 
 ## Submission on BCS
 
-* 
-* 
+* https://alexpr704.github.io/weatherApp/
+* https://github.com/AlexPR704/weatherApp/
 
 ## License
 MIT License
