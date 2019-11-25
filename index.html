@@ -9,7 +9,6 @@
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
         integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous" />
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet" />
     <link rel="stylesheet" href="style.css" />
     <title>Weather App</title>
 </head>
@@ -19,21 +18,26 @@
     <nav class="navbar navbar-dark bg-dark text-center">
         <h1 class="navbar-brand" style="margin: auto; font-size: 30px;">Weather Dashboard</h1>
     </nav>
-    <div class="row">
-        <div class="col-sm-3" style="background-color: white;">
-            <div class="search">
-                <form class="form-inline my-2 my-lg-0">
-                    <input class="form-control mr-sm-2 searchInput" type="search" aria-label="Search"
-                        placeholder="Charlotte">
-                    <i class="fas fa-search search-icon"></i>
+    <div class="container">
+        <div class="row justify-content-md-center">
+            <!-- search bar -->
+            <div id='searchContainer' class="col-lg-4">
+                <form id="searchCity">
+                    <label class="mt-1"><strong>Search for a City:</strong></label><br>
+                    <div class="input-group">
+                        <input type="text" id="userInput" class="form-control" placeholder="City Name">
+                        <div class="input-group-append">
+                            <button class="btn btn-primary" type="submit"><i class="fas fa-search"></i></button>
+                        </div>
+                    </div>
+                </form>
+                <!-- div for appending the searches -->
+                <div id="recent"></div>
             </div>
-            <div class="searchHistory"></div>
-        </div>
-        <div class="col-sm-9">
-            <div class="currentWeather"></div>
+            <!-- current weather -->
+            <div id="displayBox" class="col-lg-8"></div>
         </div>
     </div>
-
 
 
 
